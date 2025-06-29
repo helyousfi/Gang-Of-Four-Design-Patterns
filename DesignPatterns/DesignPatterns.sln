@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp", "..\Misc\ToDoApp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControlSimulator", "..\Misc\RemoteControlSimulator\RemoteControlSimulator.csproj", "{28B38536-3014-442D-ADE0-8C7A9490DD23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "..\DependencyInjection\DependencyInjection\DependencyInjection.csproj", "{87393AA8-FE92-4EDC-B4AC-3976C1CA0F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "..\DependencyInjection\DependencyInjection.csproj", "{E9E22CD5-6F15-423F-AC50-7ED3685243B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,10 @@ Global
 		{28B38536-3014-442D-ADE0-8C7A9490DD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B38536-3014-442D-ADE0-8C7A9490DD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B38536-3014-442D-ADE0-8C7A9490DD23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87393AA8-FE92-4EDC-B4AC-3976C1CA0F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87393AA8-FE92-4EDC-B4AC-3976C1CA0F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87393AA8-FE92-4EDC-B4AC-3976C1CA0F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87393AA8-FE92-4EDC-B4AC-3976C1CA0F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E22CD5-6F15-423F-AC50-7ED3685243B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E22CD5-6F15-423F-AC50-7ED3685243B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E22CD5-6F15-423F-AC50-7ED3685243B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E22CD5-6F15-423F-AC50-7ED3685243B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
