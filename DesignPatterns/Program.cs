@@ -103,7 +103,7 @@ logger.Log("This is a log message!");*/
 #endregion
 
 #region AbstractFacotry
-// Create a light-themed UI
+/*/ Create a light-themed UI
 using DesignPatterns.Creational.AbstractFactory.UIlibrary;
 
 IGUIFactory lightFactory = new LightThemeFactory();
@@ -113,5 +113,29 @@ lightClient.RenderUI();
 // Create a dark-themed UI
 IGUIFactory darkFactory = new DarkThemeFactory();
 Client darkClient = new Client(darkFactory);
-darkClient.RenderUI();
+darkClient.RenderUI();*/
+#endregion
+
+#region Builder
+// Customer 1: Wants a full deluxe burger
+using DesignPatterns.Creational.Builder;
+
+var deluxeBurger = new BurgerBuilder()
+    .SetBun("Sesame")
+    .SetPatty("Beef")
+    .AddCheese()
+    .AddLettuce()
+    .AddTomato()
+    .Build();
+
+Console.WriteLine(deluxeBurger);
+
+// Customer 2: Wants a basic cheeseburger
+var cheeseBurger = new BurgerBuilder()
+    .SetBun("Regular")
+    .SetPatty("Chicken")
+    .AddCheese()
+    .Build();
+
+Console.WriteLine(cheeseBurger);
 #endregion
