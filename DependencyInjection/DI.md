@@ -3,6 +3,8 @@
 
 # Constructor Injection 
 Constructor Injection is the act of statically defining the list of 
-required Dependencies by specifying them as parameters to the class’s con
+required Dependencies by specifying them as parameters to the classâ€™s con
 structor. 
 
+# Benifits of DI
+![image](https://github.com/user-attachments/assets/fb77b25b-4e97-49fa-a418-d4a85c406cdc)
